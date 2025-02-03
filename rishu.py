@@ -269,6 +269,7 @@ if st.session_state.history:
                 <strong>Confidence:</strong> {item["confidence"]:.2f}% 
             </div>
         ''', unsafe_allow_html=True)
+        
 
 # Provide tips for identifying fake news
 st.markdown("""
