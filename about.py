@@ -46,7 +46,7 @@ def navbar():
 # Define the content for each page
 def home_page():
     st.title("Welcome to My Streamlit App")
-    st.write("This is the **Home** page.")
+    st.write("This is the **About** page.")
     st.write("Explore the other sections using the navigation links above.")
 
 def about_page():
