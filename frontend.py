@@ -273,6 +273,7 @@ st.markdown("""
                 padding: 14px;
             }
         }
+            
     </style>
 """, unsafe_allow_html=True)
 
@@ -281,6 +282,8 @@ st.markdown('<div class="title">Fake News Detector</div>', unsafe_allow_html=Tru
 st.markdown("""
     🚨 **Paste a news headline or article below, and let us detect whether it's real or fake!** 
     We use advanced algorithms to detect misinformation. 
+            
+             **Note:** This tool is for educational purposes only and should not be used to spread misinformation.
 """, unsafe_allow_html=True)
 
 # Add a dropdown or radio button for news category (optional)
