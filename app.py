@@ -340,6 +340,7 @@ with st.container():
         height=200,
         placeholder="Enter the news article text here...",
         key="article_input"
+
     )
 
 # Create columns for buttons
@@ -434,6 +435,7 @@ if st.session_state.history:
             "analysis_type": "Analysis Type",
             "result": "Result",
             "text_snippet": "Article Preview"
+
         }
     )
 
@@ -442,11 +444,14 @@ if st.session_state.history:
     st.download_button(
         label="📥 Download Analysis History",
         data=csv,
+        
         file_name="news_analysis_history.csv",
+
         mime="text/csv"
     )
 
     # Clear history button
     if st.button("🗑️ Clear History"):
         st.session_state.history = []
+
         st.experimental_rerun()
