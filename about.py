@@ -53,7 +53,7 @@ def about_page():
     st.title("About Us")
     st.write("""
         ### About This App
-        This app is built using **Streamlit**, a powerful Python framework for creating interactive web apps.
+        This app is built using **Streamlit**, a powerful Python framework for creating interactive web apps and deploying ML frameworks.
         
         **Features:**
         - Simple and responsive navbar.
