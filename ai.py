@@ -26,6 +26,7 @@ def train_model():
 
     # Feature extraction
     vectorizer = TfidfVectorizer()
+    
     X = vectorizer.fit_transform(data["text"])
     y = data["label"]
 
