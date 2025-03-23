@@ -43,6 +43,7 @@ def navbar():
         """,
         unsafe_allow_html=True,
     )
+    
 
 # Define the content for each page
 def home_page():
