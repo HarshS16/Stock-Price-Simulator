@@ -18,7 +18,8 @@ pip install torch
 import pandas as pd
 import re
 from sklearn.model_selection import train_test_split
- 
+
+
 # Load datasets
 true_df = pd.read_csv("/content/True.csv")
 fake_df = pd.read_csv("/content/Fake.csv")
