@@ -9,6 +9,7 @@ def navbar():
         
         """
         <style>
+        
             .navbar {
                 background-color: #2E86C1;
                 padding: 10px;
