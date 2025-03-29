@@ -5,6 +5,7 @@ st.set_page_config(page_title="Streamlit App with Navbar", layout="wide")
 
 # Navbar items
 def navbar():
+    
     st.markdown(
         
         """
